@@ -58,7 +58,7 @@ class GarbageCalendarConfigFlow(config_entries.ConfigFlow, domain=const.DOMAIN):
                 const.CONF_STREET_NAME: address_info[0],
                 const.CONF_STREET_CODE: str(address_info[1]),
                 const.CONF_HOUSE_NUMBER: str(address_info[2]),
-                const.CONF_MUNICIPALITY_NUMBER: str(address_info[4])
+                const.CONF_MUNICIPALITY_NUMBER: str(address_info[4]),
                 const.CONF_APP_KEY: const.DEFAULT_APP_KEY
             }
 
