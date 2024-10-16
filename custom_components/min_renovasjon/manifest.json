@@ -1,7 +1,7 @@
 {
   "domain": "min_renovasjon",
   "name": "Min Renovasjon",
-  "version": "1.0",
+  "version": "2024.10.1",
   "config_flow": true,
   "documentation": "https://github.com/IDmedia/hass-min-renovasjon",
   "requirements": [],
