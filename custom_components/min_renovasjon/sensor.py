@@ -133,17 +133,17 @@ class GarbageCollectionSensor(SensorEntity):
         """Calculate the number of days until the next collection date."""
         if self.tommedatoer:
             # Parse the first date from the Tommedatoer list
-            next_date = datetime.strptime(self .tommedatoer[0], "%Y-%m-%dT%H:%M:%S")
+            next_date = datetime.strptime(self.tommedatoer[0], "%Y-%m-%dT%H:%M:%S").date()  # Get date only
             
-            # Calculate the time difference
-            time_difference = next_date - datetime.now()
+            # Get today's date
+            today = datetime.now().date()  # Current date without time
             
-            # Calculate total days including fractional days
-            total_days = time_difference.total_seconds() / (24 * 60 * 60)
+            # Calculate the time difference in days
+            time_difference = (next_date - today).days
             
-            # If more than 1 day but less than 2, it should still count as 1 day remaining
-            return max(0, round(total_days))
-        
+            # Return max(0, days until collection)
+            return max(0, time_difference)
+
         return "Unknown" 
 
     @property
