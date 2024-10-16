@@ -1,0 +1,10 @@
+DOMAIN = "min_renovasjon"
+CONF_MUNICIPALITY_NUMBER = "municipality_number"
+CONF_STREET_NAME = "street_name"
+CONF_STREET_CODE = "street_code"
+CONF_HOUSE_NUMBER = "house_number"
+CONF_APP_KEY = "app_key"
+
+DEFAULT_APP_KEY = "AE13DEEC-804F-4615-A74E-B4FAC11F0A30"
+ADDRESS_LOOKUP_URL = "https://ws.geonorge.no/adresser/v1/sok?"
+PROXY_SERVER_URL = "https://norkartrenovasjon.azurewebsites.net/proxyserver.ashx?server="

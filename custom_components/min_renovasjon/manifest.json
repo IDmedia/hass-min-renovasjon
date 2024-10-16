@@ -1,0 +1,10 @@
+{
+  "domain": "min_renovasjon",
+  "name": "Min Renovasjon",
+  "version": "1.0",
+  "config_flow": true,
+  "documentation": "https://example.com",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": ["@IDmedia"]
+}
