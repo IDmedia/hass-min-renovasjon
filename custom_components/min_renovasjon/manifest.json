@@ -3,7 +3,7 @@
   "name": "Min Renovasjon",
   "version": "1.0",
   "config_flow": true,
-  "documentation": "https://example.com",
+  "documentation": "https://github.com/IDmedia/hass-min-renovasjon",
   "requirements": [],
   "dependencies": [],
   "codeowners": ["@IDmedia"]
