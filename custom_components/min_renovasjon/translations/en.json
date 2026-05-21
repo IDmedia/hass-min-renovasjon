@@ -3,13 +3,17 @@
     "step": {
       "user": {
         "title": "Min Renovasjon address information",
-        "description": "Enter your address information.",
+        "description": "Enter your address to search.",
         "data": {
-          "street_name": "Street name",
-          "street_code": "Street code",
-          "house_no": "House no",
-          "county_id": "County Id",
-          "date_format": "Date format"
+          "address": "Address"
+        }
+      },
+      "select_address": {
+        "title": "Select address",
+        "description": "Select the correct address, or enter a new search term below.",
+        "data": {
+          "address": "Address",
+          "new_search": "Search again"
         }
       }
     },
@@ -17,7 +21,8 @@
       "unknown": "Unknown error occured.",
       "municipality_not_customer": "Selected municipality is not a customer of Min Renovasjon!",
       "no_address_found": "No address found.",
-      "multiple_addresses_found": "More than one addresses found. Only one address should be returned. Please narrow your search."
+      "too_many_addresses": "Too many results. Please narrow your search.",
+      "select_or_search": "Select an address from the list or enter a new search term."
     }
   },
   "options": {

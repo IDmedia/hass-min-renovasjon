@@ -3,13 +3,17 @@
     "step": {
       "user": {
         "title": "Min Renovasjon adresseinformasjon",
-        "description": "Tast inn din adresse.",
+        "description": "Tast inn adressen din for å søke.",
         "data": {
-          "street_name": "Gatenavn",
-          "street_code": "Gatekode",
-          "house_no": "Husnummer",
-          "county_id": "FylkeId",
-          "date_format": "Datoformat"
+          "address": "Adresse"
+        }
+      },
+      "select_address": {
+        "title": "Velg adresse",
+        "description": "Velg riktig adresse, eller skriv inn et nytt søk nedenfor.",
+        "data": {
+          "address": "Adresse",
+          "new_search": "Søk på nytt"
         }
       }
     },
@@ -17,7 +21,8 @@
       "unknown": "Ukjent feil oppstod.",
       "municipality_not_customer": "Valgt kommune er ikke en kunde av Min Renovasjon!",
       "no_address_found": "Ingen adresse funnet.",
-      "multiple_addresses_found": "Mer enn en adresse funnet. Vennligst begrens søket."
+      "too_many_addresses": "For mange treff. Vennligst begrens søket.",
+      "select_or_search": "Velg en adresse fra listen eller skriv inn et nytt søkeord."
     }
   },
   "options": {
